@@ -1,2 +1,2 @@
 This is a repository with example code to reproduce
-[strapi issue #](https://github.com/strapi/strapi/issues/8880).
+[Strapi issue #9149](https://github.com/strapi/strapi/issues/9149).
