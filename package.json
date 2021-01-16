@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "graphql-request": "^3.4.0",
+    "knex": "^0.21.15",
+    "mysql": "^2.18.1",
+    "pg": "^8.5.1",
+    "sqlite3": "5.0.0",
+    "strapi": "3.4.3",
+    "strapi-admin": "3.4.3",
+    "strapi-connector-bookshelf": "3.4.3",
+    "strapi-plugin-graphql": "3.4.3",
+    "strapi-plugin-users-permissions": "3.4.3"
+  }
+}

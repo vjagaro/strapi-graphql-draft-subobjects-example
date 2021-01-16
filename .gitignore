@@ -1,0 +1,4 @@
+.strapi-updater.json
+.tmp
+exports
+node_modules
