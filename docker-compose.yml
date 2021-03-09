@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   mysql:
-    image: mariadb:10.5.8
+    image: mariadb:10.5.9
     restart: unless-stopped
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
@@ -10,14 +10,14 @@ services:
       MYSQL_PASSWORD: strapi
       MYSQL_USER: strapi
   postgres:
-    image: postgres:13.1
+    image: postgres:13.2
     restart: unless-stopped
     environment:
       POSTGRES_DB: strapi
       POSTGRES_PASSWORD: strapi
       POSTGRES_USER: strapi
   test:
-    image: node:12.20.1
+    image: node:12.21.0
     volumes:
       - .:/app
     working_dir: /app
